@@ -1,0 +1,9 @@
+{
+  "name": "Center Mouse Shortcut",
+  "description": "",
+  "uuid": "centermouseshortcut@tomecarvalho.github.io",
+  "shell-version": [
+    "50"
+  ],
+  "gettext-domain": "centermouseshortcut@tomecarvalho.github.io"
+}
