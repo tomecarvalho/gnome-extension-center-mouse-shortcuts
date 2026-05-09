@@ -1,0 +1,27 @@
+{
+    "name": "gnome-extension-center-mouse-shortcut",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Center Mouse Shortcut - Add shortcuts to center the mouse on the focused window or display",
+    "license": "GPL-2.0-or-later",
+    "type": "module",
+    "engines": {
+        "node": ">=24"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "keywords": [
+        "gnome-shell",
+        "gnome-shell-extension",
+        "gjs"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "eslint": "^10.3.0",
+        "prettier": "3.83"
+    }
+}

@@ -3,6 +3,7 @@
 ## Features
 
 Adds two configurable keyboard shortcuts:
+
 - Center mouse on current window
 - Center mouse on current display
 

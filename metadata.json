@@ -1,7 +1,7 @@
 {
-  "name": "Center Mouse Shortcut",
-  "description": "",
-  "uuid": "centermouseshortcut@tomecarvalho.github.io",
-  "shell-version": ["50"],
-  "gettext-domain": "centermouseshortcut@tomecarvalho.github.io"
+    "name": "Center Mouse Shortcut",
+    "description": "Add shortcuts to center the mouse on the focused window or display",
+    "uuid": "centermouseshortcut@tomecarvalho.github.io",
+    "shell-version": ["50"],
+    "gettext-domain": "centermouseshortcut@tomecarvalho.github.io"
 }
