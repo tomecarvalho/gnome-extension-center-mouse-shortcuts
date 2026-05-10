@@ -10,15 +10,13 @@ import {
     gettext as _,
 } from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
-/**
- * @typedef {import('gi://Adw').default.PreferencesDialog | import('gi://Adw').default.PreferencesWindow} PreferencesDialogOrWindow
- */
+/** @import {NullableWindow, PreferencesDialogOrWindow, PreferencesGroup, Settings} from './types.js' */
 
 const SHORTCUT_EDITOR_MARGIN = 24;
 
 /**
- * @param {import('gi://Gtk').default.Window | null} parent
- * @param {import('gi://Gio').default.Settings} settings
+ * @param {NullableWindow} parent
+ * @param {Settings} settings
  * @param {string} settingsKey
  * @param {string} actionTitle Row title (shown bold), matching GNOME Settings wording
  */
@@ -97,8 +95,8 @@ const openShortcutEditor = (parent, settings, settingsKey, actionTitle) => {
 };
 
 /**
- * @param {import('gi://Adw').default.PreferencesGroup} group
- * @param {import('gi://Gio').default.Settings} settings
+ * @param {PreferencesGroup} group
+ * @param {Settings} settings
  * @param {string} settingsKey
  * @param {string} title
  */

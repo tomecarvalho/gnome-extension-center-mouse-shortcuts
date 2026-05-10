@@ -4,6 +4,8 @@ import Clutter from 'gi://Clutter';
 
 import {getRectCenter} from './rect.js';
 
+/** @import {Rectangle} from '../types.js' */
+
 /**
  * Warp the pointer of the default seat to the given coordinates.
  * Rounds the coordinates to the nearest integer.
@@ -19,7 +21,7 @@ const warpPointer = (x, y) => {
 
 /**
  * Warp the pointer of the default seat to the center of the given rectangle.
- * @param {import('gi://Gdk').default.Rectangle} rect
+ * @param {Rectangle} rect
  * @returns {void}
  */
 export const warpPointerToRectCenter = rect => {
