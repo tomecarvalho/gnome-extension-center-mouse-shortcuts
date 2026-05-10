@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 /**
  * Calculate the center of an axis, rounded to the nearest integer.
  * @param {number} coordinate

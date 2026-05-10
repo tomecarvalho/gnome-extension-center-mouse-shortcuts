@@ -160,7 +160,7 @@ const addKeybindingRow = (group, settings, settingsKey, title) => {
     group.add(row);
 };
 
-export default class CenterMouseShortcutPreferences extends ExtensionPreferences {
+export default class CenterMouseShortcutsPreferences extends ExtensionPreferences {
     /**
      * @param {PreferencesDialogOrWindow} window
      */

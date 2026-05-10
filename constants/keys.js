@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 const KEYS = {
     CENTER_POINTER_ON_WINDOW: 'center-pointer-on-window',
     CENTER_POINTER_ON_DISPLAY: 'center-pointer-on-display',

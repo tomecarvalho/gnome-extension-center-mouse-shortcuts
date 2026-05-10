@@ -25,7 +25,7 @@ import APPLICABLE_ACTION_MODES from './constants/action-modes.js';
 import KEYS from './constants/keys.js';
 import {warpPointerToRectCenter} from './utils/pointer.js';
 
-export default class CenterMouseShortcut extends Extension {
+export default class CenterMouseShortcuts extends Extension {
     enable() {
         this._settings = this.getSettings();
 
