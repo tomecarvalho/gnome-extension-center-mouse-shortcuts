@@ -1,9 +1,9 @@
 {
-    "name": "Center Mouse Shortcut",
+    "name": "Center Mouse Shortcuts",
     "description": "Add shortcuts to center the mouse on the focused window or display",
-    "uuid": "centermouseshortcut@tomecarvalho.github.io",
+    "uuid": "centermouseshortcuts@tomecarvalho.github.io",
     "shell-version": ["50"],
-    "settings-schema": "org.gnome.shell.extensions.centermouseshortcut",
-    "gettext-domain": "centermouseshortcut@tomecarvalho.github.io",
-    "url": "https://github.com/tomecarvalho/gnome-extension-center-mouse-shortcut"
+    "settings-schema": "org.gnome.shell.extensions.centermouseshortcuts",
+    "gettext-domain": "centermouseshortcuts@tomecarvalho.github.io",
+    "url": "https://github.com/tomecarvalho/gnome-extension-center-mouse-shortcuts"
 }

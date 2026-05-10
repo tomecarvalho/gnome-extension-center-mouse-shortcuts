@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tomé Carvalho
+# This file is distributed under the same license as the gnome-extension-center-mouse-shortcuts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"#-#-#-#-#  centermouseshortcuts@tomecarvalho.github.io.js.pot (gnome-"
+"extension-center-mouse-shortcuts 0.1.0)  #-#-#-#-#\n"
+"Project-Id-Version: gnome-extension-center-mouse-shortcuts 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/tomecarvalho/gnome-extension-center-"
+"mouse-shortcuts/issues\n"
+"POT-Creation-Date: 2026-05-10 18:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  centermouseshortcuts@tomecarvalho.github.io.schema.pot (gnome-"
+"extension-center-mouse-shortcuts 0.1.0)  #-#-#-#-#\n"
+"Project-Id-Version: gnome-extension-center-mouse-shortcuts 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/tomecarvalho/gnome-extension-center-"
+"mouse-shortcuts/issues\n"
+"POT-Creation-Date: 2026-05-10 19:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Center mouse on focused display"
+msgstr ""
+
+msgid "Center mouse on focused window"
+msgstr ""
+
+msgid "Center pointer on focused display"
+msgstr ""
+
+msgid "Center pointer on focused window"
+msgstr ""
+
+#, javascript-format
+msgid "Enter new shortcut to change <b>%s</b>"
+msgstr ""
+
+msgid ""
+"Keyboard shortcut to move the pointer to the center of the display that "
+"contains the focused window."
+msgstr ""
+
+msgid ""
+"Keyboard shortcut to move the pointer to the center of the focused window."
+msgstr ""
+
+msgid "Not set"
+msgstr ""
+
+msgid "Press Esc to cancel or Backspace to disable the keyboard shortcut"
+msgstr ""
+
+msgid "Reset to default"
+msgstr ""
+
+msgid "Set Shortcut"
+msgstr ""
+
+msgid "Set…"
+msgstr ""
+
+msgid "Shortcuts"
+msgstr ""

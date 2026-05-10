@@ -1,0 +1,64 @@
+# Portuguese (Portugal) translations for gnome-extension-center-mouse-shortcuts.
+# Copyright (C) 2026 Tomé Carvalho
+# This file is distributed under the same license as the gnome-extension-center-mouse-shortcuts package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-extension-center-mouse-shortcuts 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/tomecarvalho/gnome-extension-center-"
+"mouse-shortcuts/issues\n"
+"POT-Creation-Date: 2026-05-10 18:05+0100\n"
+"PO-Revision-Date: 2026-05-10 18:05+0100\n"
+"Last-Translator: Tomé Carvalho\n"
+"Language-Team: none\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Center mouse on focused display"
+msgstr "Centrar o rato no ecrã em foco"
+
+msgid "Center mouse on focused window"
+msgstr "Centrar o rato na janela em foco"
+
+msgid "Center pointer on focused display"
+msgstr "Centrar o ponteiro no ecrã em foco"
+
+msgid "Center pointer on focused window"
+msgstr "Centrar o ponteiro na janela em foco"
+
+#, javascript-format
+msgid "Enter new shortcut to change <b>%s</b>"
+msgstr "Introduzir novo atalho para <b>%s</b>"
+
+msgid ""
+"Keyboard shortcut to move the pointer to the center of the display that "
+"contains the focused window."
+msgstr ""
+"Atalho de teclado para mover o ponteiro para o centro do ecrã que contém a "
+"janela em foco."
+
+msgid ""
+"Keyboard shortcut to move the pointer to the center of the focused window."
+msgstr ""
+"Atalho de teclado para mover o ponteiro para o centro da janela em foco."
+
+msgid "Not set"
+msgstr "Não definido"
+
+msgid "Press Esc to cancel or Backspace to disable the keyboard shortcut"
+msgstr "Prima Esc para cancelar ou Backspace para desativar a tecla de atalho"
+
+msgid "Reset to default"
+msgstr "Repor predefinição"
+
+msgid "Set Shortcut"
+msgstr "Definir um atalho"
+
+msgid "Set…"
+msgstr "Definir…"
+
+msgid "Shortcuts"
+msgstr "Atalhos"

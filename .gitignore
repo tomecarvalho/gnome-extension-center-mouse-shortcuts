@@ -4,5 +4,5 @@
 # Node
 node_modules
 
-# Compiled schemas
-schemas/gschemas.compiled
+# Compiled translations
+locale/*/LC_MESSAGES/*.mo
