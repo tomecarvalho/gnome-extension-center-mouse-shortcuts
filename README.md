@@ -4,10 +4,14 @@
 
 Adds two configurable keyboard shortcuts:
 
-- Center mouse on current window
-- Center mouse on current display
+| Shortcut                        | Default Key Binding |
+| ------------------------------- | ------------------- |
+| Center mouse on current window  | Super+Z             |
+| Center mouse on current display | Unbound             |
 
-Similar to KDE Plasma's built-in shortcuts (by default, Super+F5 and Super+F6).
+Their behavior is similar to KDE Plasma's built-in shortcuts (by default, Super+F5 and Super+F6).
+
+_Center mouse on current window_ falls back to _Center mouse on current display_ when no window is focused.
 
 ## Use Case
 

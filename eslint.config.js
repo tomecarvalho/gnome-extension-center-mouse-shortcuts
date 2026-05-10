@@ -35,7 +35,7 @@ export default [
                 ngettext: 'readonly',
             },
             parserOptions: {
-                ecmaVersion: 2022,
+                ecmaVersion: 2023,
                 sourceType: 'module',
             },
         },
