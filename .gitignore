@@ -1,2 +1,8 @@
+# Editor
 .vscode
+
+# Node
 node_modules
+
+# Compiled schemas
+schemas/gschemas.compiled
