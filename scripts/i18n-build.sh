@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # Regenerate the POT template, merge into PO files, and compile MO files under locale/.
