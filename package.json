@@ -1,9 +1,25 @@
 {
     "name": "gnome-extension-center-mouse-shortcuts",
-    "version": "0.1.0",
-    "private": true,
+    "version": "1.0.0",
     "description": "Center Mouse Shortcuts - Add shortcuts to center the mouse on the focused window or display",
+    "keywords": [
+        "gnome-shell",
+        "gnome-shell-extension",
+        "gjs"
+    ],
+    "homepage": "https://github.com/tomecarvalho/gnome-extension-center-mouse-shortcuts",
+    "bugs": "https://github.com/tomecarvalho/gnome-extension-center-mouse-shortcuts/issues",
     "license": "GPL-2.0-or-later",
+    "author": {
+        "name": "Tomé Carvalho",
+        "email": "tomecarvalho01@gmail.com",
+        "url": "https://tomecarvalho.github.io/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github:tomecarvalho/gnome-extension-center-mouse-shortcuts"
+    },
+    "private": true,
     "type": "module",
     "engines": {
         "node": ">=24"
@@ -11,24 +27,24 @@
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "format": "prettier --write .",
-        "format:check": "prettier --check .",
         "typecheck": "tsc -p jsconfig.json",
-        "schemas": "glib-compile-schemas schemas/",
-        "i18n": "./scripts/i18n-build.sh",
-        "build": "npm run schemas && npm run i18n"
+        "format:check": "prettier --check .",
+        "format": "prettier --write .",
+        "knip": "knip",
+        "check": "npm run lint && npm run typecheck && npm run format:check && npm run knip",
+        "build:schemas": "glib-compile-schemas schemas/",
+        "build:i18n": "./scripts/i18n-build.sh",
+        "build": "npm run build:schemas && npm run build:i18n",
+        "pack": "sh scripts/pack.sh"
     },
-    "keywords": [
-        "gnome-shell",
-        "gnome-shell-extension",
-        "gjs"
-    ],
     "devDependencies": {
         "@eslint/js": "^10.0.1",
         "@girs/gjs": "^4.0.0-rc.15",
         "@girs/gnome-shell": "50.0.0",
+        "@types/node": "^25.8.0",
         "eslint": "^10.3.0",
+        "knip": "^6.13.1",
         "prettier": "3.8.3",
-        "typescript": "6.0.3"
+        "typescript": "^6.0.3"
     }
 }

@@ -1,0 +1,7 @@
+{
+    "$schema": "https://unpkg.com/knip@6/schema.json",
+    "tags": ["-lintignore"],
+    "entry": ["extension.js", "prefs.js", "ambient.d.ts", "types.js"],
+    "ignoreDependencies": ["gi", "resource"],
+    "ignoreBinaries": ["glib-compile-schemas"]
+}

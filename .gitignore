@@ -6,3 +6,9 @@ node_modules
 
 # Compiled translations
 locale/*/LC_MESSAGES/*.mo
+
+# Python venv for Shexli
+venv/
+
+# Packaged extension (Zip file)
+dist/
