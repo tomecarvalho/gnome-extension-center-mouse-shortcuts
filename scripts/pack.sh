@@ -8,7 +8,7 @@
 
 set -eu
 
-ROOT="$(env CDPATH= cd -- "$(dirname "$0")/.." && pwd)"
+ROOT="$(CDPATH='' cd -- "$(dirname "$0")/.." && pwd)"
 UUID="$(basename "$ROOT")"
 OUT="$ROOT/dist/${UUID}.zip"
 
