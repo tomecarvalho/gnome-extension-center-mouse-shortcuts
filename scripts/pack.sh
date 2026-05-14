@@ -9,14 +9,14 @@
 set -eu
 
 ROOT="$(CDPATH='' cd -- "$(dirname "$0")/.." && pwd)"
-UUID="$(basename "$ROOT")"
-OUT="$ROOT/dist/${UUID}.zip"
 
 if [ ! -f "$ROOT/metadata.json" ] || [ ! -f "$ROOT/extension.js" ]; then
     printf '%s\n' "Expected metadata.json and extension.js under $ROOT" >&2
     exit 1
 fi
 
+UUID="$(sed -n 's/.*"uuid"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$ROOT/metadata.json")"
+OUT="$ROOT/dist/${UUID}.zip"
 
 mkdir -p "$ROOT/dist"
 cd "$ROOT"
