@@ -55,9 +55,12 @@ jobs:
 
             - run: npm run pack
 
+            - name: Stage extension zip
+              run: cp dist/*.zip .
+
             - name: Upload packaged extension
               uses: actions/upload-artifact@v4
               with:
-                  name: extension-zip
-                  path: dist/*.zip
+                  name: centermouseshortcuts@tomecarvalho.github.io
+                  path: '*.zip'
                   if-no-files-found: error
