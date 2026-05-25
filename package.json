@@ -1,6 +1,6 @@
 {
     "name": "gnome-extension-center-mouse-shortcuts",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Center Mouse Shortcuts - Add shortcuts to center the mouse on the focused window or display",
     "keywords": [
         "gnome-shell",
